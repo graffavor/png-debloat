@@ -1,0 +1,6 @@
+include **/*.cpp
+include **/*.h
+include CMakeLists.txt
+recursive-include pybind11 *
+prune pybind11/tests
+prune pybind11/docs
